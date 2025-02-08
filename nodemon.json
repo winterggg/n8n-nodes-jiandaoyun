@@ -1,0 +1,9 @@
+{
+  "env": {
+    "N8N_PORT": "5679"
+  },
+  "watch": [],
+  "ext": "ignore",
+  "ignore": ["dist"],
+  "exec": "sh -c 'pnpm build && n8n start'"
+}

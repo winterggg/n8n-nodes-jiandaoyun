@@ -1,19 +1,24 @@
 {
-  "name": "n8n-nodes-<...>",
-  "version": "0.1.0",
-  "description": "",
+  "name": "n8n-nodes-jiandaoyun",
+  "version": "1.0.0",
+  "description": "n8n 简道云节点",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "n8n",
+    "n8n-nodes",
+    "jiandaoyun",
+    "jodoo",
+    "low-code"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://www.jiandaoyun.com",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Winter.Ji",
+    "email": "jitd1222@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/winterggg/n8n-nodes-jiandaoyun.git"
   },
   "engines": {
     "node": ">=18.10",
@@ -23,7 +28,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "build": "tsc && gulp build:icons",
+    "build": "rimraf dist && tsc && gulp build",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
@@ -36,24 +41,28 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/JiandaoyunApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
       "dist/nodes/HttpBin/HttpBin.node.js"
     ]
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.15",
+    "@types/node": "^22.12.0",
     "@typescript-eslint/parser": "^7.15.0",
     "eslint": "^8.56.0",
     "eslint-plugin-n8n-nodes-base": "^1.16.1",
     "gulp": "^4.0.2",
     "n8n-workflow": "*",
     "prettier": "^3.3.2",
+    "rimraf": "^6.0.1",
     "typescript": "^5.5.3"
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
