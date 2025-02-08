@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-jiandaoyun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "n8n 简道云节点",
   "keywords": [
     "n8n-community-node-package",
@@ -36,7 +36,8 @@
     "prepublishOnly": "pnpm build && pnpm lint -c .eslintrc.prepublish.js nodes credentials package.json"
   },
   "files": [
-    "dist"
+    "dist",
+    "assets"
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
@@ -44,7 +45,7 @@
       "dist/credentials/JiandaoyunApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/Jiandaoyun/Jiandaoyun.node.js"
     ]
   },
   "devDependencies": {
