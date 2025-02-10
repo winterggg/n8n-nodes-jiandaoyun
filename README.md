@@ -11,7 +11,6 @@ This is an n8n community node. It lets you use [JianDaoYun(简道云)](https://w
 [Installation](#installation)  
 [Operations](#operations)  
 [Credentials](#credentials)  <!-- delete if no auth needed -->
-[Resources](#resources)
 
 ## Installation
 
