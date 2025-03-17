@@ -2,9 +2,9 @@
 
 ![](./nodes/Jiandaoyun/jiandaoyun.light.png)
 
-This is an n8n community node. It lets you use [JianDaoYun(简道云)](https://www.jiandaoyun.com) / [Jodoo](https://www.jodoo.com) in your n8n workflows.
+This is an n8n community node. It lets you use [JianDaoYun(简道云)](https://www.jiandaoyun.com) in your n8n workflows.
 
-[JianDaoYun(简道云)](https://www.jiandaoyun.com) / [Jodoo](https://www.jodoo.com)  is a no-code platform that allows you to build your own custom software.
+[JianDaoYun(简道云)](https://www.jiandaoyun.com) is a no-code platform that allows you to build your own custom software.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
@@ -21,13 +21,11 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Credentials
 
-[JianDaoYun(简道云)](https://www.jiandaoyun.com) / [Jodoo](https://www.jodoo.com) uses simple token-based authentication method.
+[JianDaoYun(简道云)](https://www.jiandaoyun.com) uses simple token-based authentication method.
 
 ![](./assets/2.png)
 
-You can get your API Key reference from [Jiandaoyun](https://hc.jiandaoyun.com/open/10992#22%E5%88%9B%E5%BB%BAapikey) / [Jodoo](https://help.jodoo.com/open/11261#authenticationmethod).
+You can get your API Key reference from [Jiandaoyun](https://hc.jiandaoyun.com/open/10992#22%E5%88%9B%E5%BB%BAapikey).
 
 The available OpenAPI Servers are:
 - Jiandaoyun: https://api.jiandaoyun.com/
-- Jodoo: https://api.jodoo.com/
-- Dev: https://dev.jiandaoyun.com/ (for development only)
